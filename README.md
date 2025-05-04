@@ -13,7 +13,8 @@ A Python bot that extracts credit card information from either a URL or a PDF br
 python -m venv .venv
 .venv\Scripts\Activate.ps1  # Use this in PowerShell
 ```
-
+## Streamlit Integration
+https://credit-card-scraping-bot.streamlit.app/
 ## Usage
 ```bash
 python main.py --url "https://example.com/cards"
