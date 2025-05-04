@@ -12,7 +12,6 @@ A Python bot that extracts credit card information from either a URL or a PDF br
 ```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1  # Use this in PowerShell
-pip install -r requirements.txt
 ```
 
 ## Usage
@@ -22,9 +21,8 @@ python main.py --pdf sample_inputs/brochure.pdf
 ```
 
 ## Output
-Results will be saved in the `output/` directory:
-- `output.json`
-- `output.xlsx`
+Results will be saved:
+- `credit_cards.json`
 
 ---
 
@@ -60,8 +58,8 @@ Credit card scraping bot/
 - Google Chrome
 - ChromeDriver (same version as your browser)
 
-Install dependencies:
+**Install dependencies:** 
 
 ```bash
 pip install -r requirements.txt
-
+```
